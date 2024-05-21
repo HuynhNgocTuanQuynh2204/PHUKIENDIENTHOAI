@@ -106,12 +106,12 @@
     </style>
     <div class="col-md-4 hinhthucthanhtoan">
       <h4>Phương thức thanh toán</h4>
-      <!-- <div class="form-check">
+      <div class="form-check">
         <input class="form-check-input" type="radio" name="payment" id="exampleRadios1" value="tienmat"  checked>
         <label class="form-check-label" for="exampleRadios1">
          Tiền mặt
         </label>
-      </div> -->
+      </div>
       <div class="form-check">
         <input class="form-check-input" type="radio" name="payment" id="exampleRadios2" value="chuyenkhoan">
         <label class="form-check-label" for="exampleRadios2">

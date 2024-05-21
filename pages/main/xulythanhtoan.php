@@ -8,11 +8,11 @@
  use Carbon\CarbonInterval;
  $now = Carbon::now('Asia/Ho_Chi_Minh');
  $now->format('Y-m-d H:i:s');
- $id_khachhang = $_SESSION['id_user'];
+ $id_khachhang = $_SESSION['id_khachhang'];
  $code_oder = rand(0,9999);
  $cart_payment = $_POST['payment'];
  //lấy id thông tin vận chuyển
- $id_dangky = $_SESSION['id_user'];
+ $id_dangky = $_SESSION['id_khachhang'];
  $sql_getvanchuyen = mysqli_query($mysqli,"SELECT * FROM  tbl_shipping WHERE id_dangky ='$id_dangky' LIMIT 1");
  $row_getvanchuyen = mysqli_fetch_array($sql_getvanchuyen);
  $id_shiping = $row_getvanchuyen["id_shipping"];
